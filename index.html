@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="hu">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+      integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="kocka.css" />
+
+    <title>Dobókocka</title>
+  </head>
+
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12 btn-warning text-center p-2">
+          <h1>Dobókocka</h1>
+          <h4>JavaScript eseménykezelés</h4>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12 text-center btn-light" style="height: 570px">
+          <button id="gur" onclick="kattintas()">Guríts!</button>
+          <div id="ujgomb"></div>
+          <p class="szoveg">A kapott szám: <span id="demo"></span></p>
+          <p class="szoveg" id="kat_utolso">
+            Ez a <span id="kattint">0</span>. dobása!
+          </p>
+
+          <ul class="mx-auto" style="width: 100px" id="lista"></ul>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12 text-center btn-info">
+          <img
+            id="kep"
+            class="img-fluid p-5"
+            width="250"
+            height="250"
+            src="/IMG/kocka_150.svg"
+            alt="kocka"
+          />
+        </div>
+
+        <script src="kocka.js"></script>
+      </div>
+    </div>
+  </body>
+</html>
