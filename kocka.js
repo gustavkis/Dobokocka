@@ -43,22 +43,22 @@ function kattintas() {
         // A kocka képei
 
         if (randSzam == 1) {
-            document.getElementById("kep").src = "/IMG/kocka_1.JPG";
+            document.getElementById("kep").src = "IMG/kocka_1.JPG";
         }
         if (randSzam == 2) {
-            document.getElementById("kep").src = "/IMG/kocka_2.JPG";
+            document.getElementById("kep").src = "IMG/kocka_2.JPG";
         }
         if (randSzam == 3) {
-            document.getElementById("kep").src = "/IMG/kocka_3.JPG";
+            document.getElementById("kep").src = "IMG/kocka_3.JPG";
         }
         if (randSzam == 4) {
-            document.getElementById("kep").src = "/IMG/kocka_4.JPG";
+            document.getElementById("kep").src = "IMG/kocka_4.JPG";
         }
         if (randSzam == 5) {
-            document.getElementById("kep").src = "/IMG/kocka_5.JPG";
+            document.getElementById("kep").src = "IMG/kocka_5.JPG";
         }
         if (randSzam == 6) {
-            document.getElementById("kep").src = "/IMG/kocka_6.JPG";
+            document.getElementById("kep").src = "IMG/kocka_6.JPG";
         }
 
     }
@@ -66,22 +66,22 @@ function kattintas() {
     else {
         // Betölti az utolsó dobás kockáját! Nem ment a do-while ciklussal! 
         if (randSzam == 1) {
-            document.getElementById("kep").src = "/IMG/kocka_1.JPG";
+            document.getElementById("kep").src = "IMG/kocka_1.JPG";
         }
         if (randSzam == 2) {
-            document.getElementById("kep").src = "/IMG/kocka_2.JPG";
+            document.getElementById("kep").src = "IMG/kocka_2.JPG";
         }
         if (randSzam == 3) {
-            document.getElementById("kep").src = "/IMG/kocka_3.JPG";
+            document.getElementById("kep").src = "IMG/kocka_3.JPG";
         }
         if (randSzam == 4) {
-            document.getElementById("kep").src = "/IMG/kocka_4.JPG";
+            document.getElementById("kep").src = "IMG/kocka_4.JPG";
         }
         if (randSzam == 5) {
-            document.getElementById("kep").src = "/IMG/kocka_5.JPG";
+            document.getElementById("kep").src = "IMG/kocka_5.JPG";
         }
         if (randSzam == 6) {
-            document.getElementById("kep").src = "/IMG/kocka_6.JPG";
+            document.getElementById("kep").src = "IMG/kocka_6.JPG";
         }
 
         // A Guríts! gomb letiltása
